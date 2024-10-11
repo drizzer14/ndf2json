@@ -1,0 +1,22 @@
+{
+    "extends": "./tsconfig.json",
+    "include": ["./src"],
+    "compilerOptions": {
+        "target": "es2023",
+        "module": "esnext",
+        "moduleResolution": "node",
+
+        "lib": ["esnext"],
+        "noEmit": false,
+        "declaration": true,
+        "inlineSourceMap": true,
+
+        "rootDir": "./src",
+        "outDir": "./lib",
+        "declarationDir": "./lib",
+
+        "baseUrl": "./src",
+
+        "skipLibCheck": true
+    }
+}

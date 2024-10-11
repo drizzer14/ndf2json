@@ -1,0 +1,10 @@
+{
+    "include": ["src", "debugger"],
+    "compilerOptions": {
+        "lib": ["esnext", "dom"],
+        "jsx": "react-jsxdev",
+
+        "rootDir": ".",
+        "baseUrl": "."
+    }
+}
